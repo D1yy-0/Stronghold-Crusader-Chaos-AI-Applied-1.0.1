@@ -1,0 +1,208 @@
+config-sparse:
+  modules:
+    aiSwapper:
+      config:
+        menu:
+          contents:
+            suggested-value:
+              rat:
+                - name: Chaos Rat
+                  root: ucp/plugins/Chaos-AI/resources/ai/Rat/
+                  control:
+                    aiv: true
+              snake:
+                - name: Chaos Snake
+                  root: ucp/plugins/Chaos-AI/resources/ai/Snake/
+                  control:
+                    aiv: true
+              pig:
+                - name: Chaos Pig
+                  root: ucp/plugins/Chaos-AI/resources/ai/Pig/
+                  control:
+                    aiv: true
+              wolf:
+                - name: Chaos Wolf
+                  root: ucp/plugins/Chaos-AI/resources/ai/Wolf/
+                  control:
+                    aiv: true
+              saladin:
+                - name: Chaos Saladin
+                  root: ucp/plugins/Chaos-AI/resources/ai/Saladin/
+                  control:
+                    aiv: true
+              caliph:
+                - name: Chaos Caliph
+                  root: ucp/plugins/Chaos-AI/resources/ai/Caliph/
+                  control:
+                    aiv: true
+              sultan:
+                - name: Chaos Sultan
+                  root: ucp/plugins/Chaos-AI/resources/ai/Sultan/
+                  control:
+                    aiv: true
+              richard:
+                - name: Chaos Richard
+                  root: ucp/plugins/Chaos-AI/resources/ai/Richard/
+                  control:
+                    aiv: true
+              frederick:
+                - name: Chaos Frederick
+                  root: ucp/plugins/Chaos-AI/resources/ai/Frederick/
+                  control:
+                    aiv: true
+              phillip:
+                - name: Chaos Phillip
+                  root: ucp/plugins/Chaos-AI/resources/ai/Phillip/
+                  control:
+                    aiv: true
+              wazir:
+                - name: Chaos Wazir
+                  root: ucp/plugins/Chaos-AI/resources/ai/Wazir/
+                  control:
+                    aiv: true
+              emir:
+                - name: Chaos Emir
+                  root: ucp/plugins/Chaos-AI/resources/ai/Emir/
+                  control:
+                    aiv: true
+              nizar:
+                - name: Chaos Nizar
+                  root: ucp/plugins/Chaos-AI/resources/ai/Nizar/
+                  control:
+                    aiv: true
+              sheriff:
+                - name: Chaos Sheriff
+                  root: ucp/plugins/Chaos-AI/resources/ai/Sheriff/
+                  control:
+                    aiv: true
+              marshal:
+                - name: Chaos Marshal
+                  root: ucp/plugins/Chaos-AI/resources/ai/Marshall/
+                  control:
+                    aiv: true
+              abbot:
+                - name: The King
+                  root: ucp/plugins/Chaos-AI/resources/ai/The King/
+                  control:
+                    aiv: true
+        defaultLanguage:
+          contents:
+            suggested-value: null
+        ai:
+          rat:
+            aiv:
+              contents:
+                suggested-value:
+                  name: Chaos Rat
+                  root: ucp/plugins/Chaos-AI/resources/ai/Rat/
+                  active: true
+          snake:
+            aiv:
+              contents:
+                suggested-value:
+                  name: Chaos Snake
+                  root: ucp/plugins/Chaos-AI/resources/ai/Snake/
+                  active: true
+          pig:
+            aiv:
+              contents:
+                suggested-value:
+                  name: Chaos Pig
+                  root: ucp/plugins/Chaos-AI/resources/ai/Pig/
+                  active: true
+          wolf:
+            aiv:
+              contents:
+                suggested-value:
+                  name: Chaos Wolf
+                  root: ucp/plugins/Chaos-AI/resources/ai/Wolf/
+                  active: true
+          saladin:
+            aiv:
+              contents:
+                suggested-value:
+                  name: Chaos Saladin
+                  root: ucp/plugins/Chaos-AI/resources/ai/Saladin/
+                  active: true
+          caliph:
+            aiv:
+              contents:
+                suggested-value:
+                  name: Chaos Caliph
+                  root: ucp/plugins/Chaos-AI/resources/ai/Caliph/
+                  active: true
+          sultan:
+            aiv:
+              contents:
+                suggested-value:
+                  name: Chaos Sultan
+                  root: ucp/plugins/Chaos-AI/resources/ai/Sultan/
+                  active: true
+          richard:
+            aiv:
+              contents:
+                suggested-value:
+                  name: Chaos Richard
+                  root: ucp/plugins/Chaos-AI/resources/ai/Richard/
+                  active: true
+          frederick:
+            aiv:
+              contents:
+                suggested-value:
+                  name: Chaos Frederick
+                  root: ucp/plugins/Chaos-AI/resources/ai/Frederick/
+                  active: true
+          phillip:
+            aiv:
+              contents:
+                suggested-value:
+                  name: Chaos Phillip
+                  root: ucp/plugins/Chaos-AI/resources/ai/Phillip/
+                  active: true
+          wazir:
+            aiv:
+              contents:
+                suggested-value:
+                  name: Chaos Wazir
+                  root: ucp/plugins/Chaos-AI/resources/ai/Wazir/
+                  active: true
+          emir:
+            aiv:
+              contents:
+                suggested-value:
+                  name: Chaos Emir
+                  root: ucp/plugins/Chaos-AI/resources/ai/Emir/
+                  active: true
+          nizar:
+            aiv:
+              contents:
+                suggested-value:
+                  name: Chaos Nizar
+                  root: ucp/plugins/Chaos-AI/resources/ai/Nizar/
+                  active: true
+          sheriff:
+            aiv:
+              contents:
+                suggested-value:
+                  name: Chaos Sheriff
+                  root: ucp/plugins/Chaos-AI/resources/ai/Sheriff/
+                  active: true
+          marshal:
+            aiv:
+              contents:
+                suggested-value:
+                  name: Chaos Marshal
+                  root: ucp/plugins/Chaos-AI/resources/ai/Marshall/
+                  active: true
+          abbot:
+            aiv:
+              contents:
+                suggested-value:
+                  name: The King
+                  root: ucp/plugins/Chaos-AI/resources/ai/The King/
+                  active: true
+  plugins:
+    Chaos-AI:
+      config: {}
+meta:
+  version: 1.0.1
